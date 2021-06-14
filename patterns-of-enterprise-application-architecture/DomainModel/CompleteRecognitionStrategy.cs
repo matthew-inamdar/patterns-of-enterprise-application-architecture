@@ -2,10 +2,6 @@
 {
     public class CompleteRecognitionStrategy: RecognitionStrategy
     {
-        public CompleteRecognitionStrategy()
-        {
-        }
-
         public void CalculateRevenueRecognitions(Contract contract)
         {
             contract.AddRevenueRecognition(
