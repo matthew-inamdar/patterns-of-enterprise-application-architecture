@@ -6,4 +6,10 @@
     <RootNamespace>patterns_of_enterprise_application_architecture</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DomainModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DomainModel\" />
+  </ItemGroup>
 </Project>
