@@ -37,12 +37,12 @@
             );
         }
 
-        private int StandardRevenueAmount(Contract contract)
+        private static int StandardRevenueAmount(Contract contract)
         {
             return contract.GetRevenue() / 3;
         }
 
-        private int FinalRevenueAmount(Contract contract)
+        private static int FinalRevenueAmount(Contract contract)
         {
             return contract.GetRevenue() - (StandardRevenueAmount(contract) * 2);
         }
