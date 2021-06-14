@@ -8,8 +8,7 @@ namespace patterns_of_enterprise_application_architecture
         {
             Console.WriteLine("Hello World!");
 
-            DomainModel.Entrypoint domainModel = new DomainModel.Entrypoint();
-            domainModel.Run();
+            DomainModel.Entrypoint.Run();
         }
     }
 }
